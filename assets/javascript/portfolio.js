@@ -88,7 +88,7 @@ function runShit() {
             const usernames = ['user', 'dude'];
             const ip = data.ip ? data.ip : usernames[Math.floor(Math.random() * usernames.length)];
             const country = data.country_name ? data.country_name : 'your country';
-            writeLine([`Acceso permitido! <span style='font-size: 40px; color: #0f0;'>[success]</span>`, `Bienvenido, <i style='font-size: 40px; color: #0f0'>${ip}</i>! Es bueno ver a alguien de <c style='font-size: 30px; color: #87CEEB'>${country}</c>!`], 30, 500, () => {
+            writeLine([`Acceso permitido! <span style='font-size: 40px; color: #0f0;'>[Con Éxito]</span>`, `Bienvenido, <i style='font-size: 40px; color: #0f0'>${ip}</i>! Es bueno ver a alguien de <c style='font-size: 30px; color: #87CEEB'>${country}</c>!`], 30, 500, () => {
                 if (app.skippedIntro)
                     return;
                 clearCursor();
