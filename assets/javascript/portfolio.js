@@ -82,7 +82,7 @@ function runShit() {
         }, timeout);
     };
     $.getJSON(ipgeolocation, (data) => {
-        writeLine(['Cargando...', "Concesión de acceso a <span style='font-size: 30px; color: #FF0000;'>[facuglitch]</span>..."], 30, () => {
+        writeLine(['Cargando...', "Concediendo acceso a <span style='font-size: 30px; color: #FF0000;'>[Sitio Web]</span>..."], 30, () => {
             if (app.skippedIntro) return;
             clearCursor();
             const usernames = ['user', 'dude'];
@@ -92,7 +92,7 @@ function runShit() {
                 if (app.skippedIntro)
                     return;
                 clearCursor();
-                writeLine([`<i style='color: #F62459'>root@facuglitch:~$</i> <i style=>Pulse cualquier tecla para continuar...`], 60, 500, () => {
+                writeLine([`<i style='color: #F62459'>root@facuglitch:~$</i> <i style=>Pulsa cualquier tecla para continuar...`], 60, 500, () => {
                     timeouts.push(setTimeout(() => {
                         document.onkeypress=function(e) {
                         if (app.skippedIntro)
