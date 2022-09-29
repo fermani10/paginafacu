@@ -8,7 +8,7 @@ class _app {
     backgroundToggler = false;
     shouldIgnoreVideo = false;
     effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-    brandDescription = ['Hola', 'Yo soy\' Facu', 'tengo 25 soy Programador de Python y tengo una Comunidad de Bots en Telegram', 'Bienvenido a mi sitio web!'];
+    brandDescription = ['Hola', 'Soy\' Facu', 'tengo 25 soy Programador de Python y tengo una Comunidad de Bots en Telegram', 'Bienvenido a mi sitio web!'];
     titleChanger = (text, delay) => {
         if (!text)
             return;
